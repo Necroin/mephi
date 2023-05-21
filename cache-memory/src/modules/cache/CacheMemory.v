@@ -95,7 +95,7 @@ module CacheMemory(
         WR_FLAG
     );
 
-    DataSelectScheme in_data_select(
+    InputDataSelectScheme in_data_select(
         SIG_RAM_LOAD,
         CPU_B_VAL,
         ADDR_OFFSET,
@@ -106,7 +106,7 @@ module CacheMemory(
         CACHE_IN_DATA
     );
 
-    DataMemorySelectScheme out_data_select(
+    OutputDataSelectScheme out_data_select(
         CACHE_OUT_DATA,
         ADDR_OFFSET,
         CPU_IN_DATA

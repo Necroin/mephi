@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module DataMemorySelectScheme(
+module OutputDataSelectScheme(
     IN_DATA,
     IN_ADDR_OFFSET,
     OUT_DATA

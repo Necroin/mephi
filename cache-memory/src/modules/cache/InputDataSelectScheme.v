@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module DataSelectScheme(
+module InputDataSelectScheme(
     SIG_RAM_LOAD,
     IN_B_VAL,
     IN_ADDR_OFFSET,
@@ -20,7 +20,6 @@ module DataSelectScheme(
     input wire[c_RAM_DATA_SIZE-1:0] IN_RAM_DATA;
     input wire[c_RAM_DATA_SIZE-1:0] IN_CACHE_DATA;
     input wire WR_FLAG;
-
 
     // OUTPUT
     output reg[c_RAM_DATA_SIZE-1:0] OUT_DATA;

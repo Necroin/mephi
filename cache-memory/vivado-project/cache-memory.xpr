@@ -104,14 +104,14 @@
           <Attr Name="IsVisible" Val="1"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../src/modules/cache/DataMemorySelectScheme.v">
+      <File Path="$PPRDIR/../src/modules/cache/OutputDataSelectScheme.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../src/modules/cache/DataSelectScheme.v">
+      <File Path="$PPRDIR/../src/modules/cache/InputDataSelectScheme.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
