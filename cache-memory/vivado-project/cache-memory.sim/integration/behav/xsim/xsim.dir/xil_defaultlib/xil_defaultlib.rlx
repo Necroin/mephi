@@ -2,11 +2,17 @@
 2020.2
 Oct 14 2022
 05:20:55
+D:/projects/mephi/cache-memory/src/modules/cache/CacheMemory.v,1684681392,verilog,,D:/projects/mephi/cache-memory/src/modules/cache/ControlUnit.v,D:/projects/mephi/cache-memory/src/modules/cache/Constants.vh,CacheMemory,,,../../../../../src/modules/cache,,,,,
 D:/projects/mephi/cache-memory/src/modules/cache/Constants.vh,1684428932,verilog,,,,,,,,,,,,
-D:/projects/mephi/cache-memory/src/modules/cache/TagMemory.v,1683824474,verilog,,D:/projects/mephi/cache-memory/src/tests/integration/test_Cache_TagMemory.v,D:/projects/mephi/cache-memory/src/modules/cache/Constants.vh,CacheTagMemory;CacheTagMemoryChannel,,,../../../../../src/modules/cache,,,,,
-D:/projects/mephi/cache-memory/src/modules/std/Encoder8to3.v,1681401526,verilog,,D:/projects/mephi/cache-memory/src/modules/std/Mux2.v,,Encoder8to3,,,../../../../../src/modules/cache,,,,,
+D:/projects/mephi/cache-memory/src/modules/cache/ControlUnit.v,1684342492,verilog,,D:/projects/mephi/cache-memory/src/modules/std/Encoder8to3.v,,CacheControlUnit,,,../../../../../src/modules/cache,,,,,
+D:/projects/mephi/cache-memory/src/modules/cache/InputDataSelectScheme.v,1684681516,verilog,,D:/projects/mephi/cache-memory/src/modules/std/Mux2.v,D:/projects/mephi/cache-memory/src/modules/cache/Constants.vh,InputDataSelectScheme,,,../../../../../src/modules/cache,,,,,
+D:/projects/mephi/cache-memory/src/modules/cache/OutputDataSelectScheme.v,1684681412,verilog,,D:/projects/mephi/cache-memory/src/modules/cache/TagMemory.v,D:/projects/mephi/cache-memory/src/modules/cache/Constants.vh,OutputDataSelectScheme,,,../../../../../src/modules/cache,,,,,
+D:/projects/mephi/cache-memory/src/modules/cache/TagMemory.v,1683824474,verilog,,D:/projects/mephi/cache-memory/src/tests/integration/test_Cache_WithData.v,D:/projects/mephi/cache-memory/src/modules/cache/Constants.vh,CacheTagMemory;CacheTagMemoryChannel,,,../../../../../src/modules/cache,,,,,
+D:/projects/mephi/cache-memory/src/modules/std/Encoder8to3.v,1681401526,verilog,,D:/projects/mephi/cache-memory/src/modules/cache/InputDataSelectScheme.v,,Encoder8to3,,,../../../../../src/modules/cache,,,,,
 D:/projects/mephi/cache-memory/src/modules/std/Mux2.v,1681401496,verilog,,D:/projects/mephi/cache-memory/src/modules/std/Mux8.v,,Mux2,,,../../../../../src/modules/cache,,,,,
 D:/projects/mephi/cache-memory/src/modules/std/Mux8.v,1683757598,verilog,,D:/projects/mephi/cache-memory/src/modules/std/ORN.v,,Mux8,,,../../../../../src/modules/cache,,,,,
-D:/projects/mephi/cache-memory/src/modules/std/ORN.v,1681931270,verilog,,D:/projects/mephi/cache-memory/src/modules/cache/TagMemory.v,,ORN,,,../../../../../src/modules/cache,,,,,
+D:/projects/mephi/cache-memory/src/modules/std/ORN.v,1681931270,verilog,,D:/projects/mephi/cache-memory/src/modules/cache/OutputDataSelectScheme.v,,ORN,,,../../../../../src/modules/cache,,,,,
 D:/projects/mephi/cache-memory/src/tests/integration/test_Cache_TagMemory.v,1683756800,verilog,,,,TestCacheTagMemory,,,../../../../../src/modules/cache,,,,,
+D:/projects/mephi/cache-memory/src/tests/integration/test_Cache_WithControlUnit.v,1684343610,verilog,,,,TestCacheWithControlUnit,,,../../../../../src/modules/cache,,,,,
+D:/projects/mephi/cache-memory/src/tests/integration/test_Cache_WithData.v,1684099900,verilog,,,D:/projects/mephi/cache-memory/src/modules/cache/Constants.vh,TestCacheWithData,,,../../../../../src/modules/cache,,,,,
 D:/projects/mephi/cache-memory/vivado-project/cache-memory.sim/integration/behav/xsim/glbl.v,1665704904,verilog,,,,glbl,,,,,,,,

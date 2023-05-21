@@ -1,14 +1,19 @@
 # Cache Memory
 [Task](/cache-memory/docs/cache-memory.pdf)
 
-## Cache Architecture
+## Cache architecture
 ![](/cache-memory/docs/images/cache/cache-memory-cache-arch.png)
 ___
-## Tag Memory Architecture
+## Tag Memory architecture
 ![](/cache-memory/docs/images/cache/cache-memory-tag-memory-arch.png)
-### Tag Memory Channel Architecture
+### Tag Memory Channel architecture
 ![](/cache-memory/docs/images/cache/cache-memory-tag-memory-channel-arch.png)
-## Tag Memory Simulation
-![](/cache-memory/docs/images/simulations/cache-tag-memory.png)
 ___
+## Tag Memory simulation
+![](/cache-memory/docs/images/simulations/cache-tag-memory.png)
 
+## Cache Memory (Tag Memory + Control Unit) simulation
+![](/cache-memory/docs/images/simulations/cache-with-control-unit.png)
+
+## Cache Memory (Tag Memory + Control Unit + Data) simulation
+![](/cache-memory/docs/images/simulations/cache-with-data.png)
