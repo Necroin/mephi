@@ -9,6 +9,9 @@ ___
 ### Tag Memory Channel architecture
 ![](/cache-memory/docs/images/cache/cache-memory-tag-memory-channel-arch.png)
 ___
+## Control Unit FSM
+![](/cache-memory/docs/images/cache/cache-memory-control-unit-FSM.png)
+___
 ## Tag Memory simulation
 ![](/cache-memory/docs/images/simulations/cache-tag-memory.png)
 

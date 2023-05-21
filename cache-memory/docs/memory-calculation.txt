@@ -1,5 +1,5 @@
 8192(all memory) / 8(threads) = 1024 (memory per thread)
-1024 (memory per thread) / 16 (memory per line) = 64 (lines per thread)
+1024 (memory per thread) / 16 (memory bytes per line) = 64 (lines per thread)
 
 addr = 16 (bits)
 offfset = log2(16 (memory per line) ) = 4 (bits)
