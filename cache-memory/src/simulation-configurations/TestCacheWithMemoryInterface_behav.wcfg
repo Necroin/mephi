@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestCacheWithMemoryInterface_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestCacheWithMemoryInterface" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,222.980 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,192.981 ns"></ZoomEndTime>
+      <Cursor1Time time="1,770.980 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="239"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/TestCacheWithMemoryInterface/CACHE_RESET" type="logic">
+      <obj_property name="ElementShortName">CACHE_RESET</obj_property>
+      <obj_property name="ObjectShortName">CACHE_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/RAM_RESET" type="logic">
+      <obj_property name="ElementShortName">RAM_RESET</obj_property>
+      <obj_property name="ObjectShortName">RAM_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/CACHE_CLK" type="logic">
+      <obj_property name="ElementShortName">CACHE_CLK</obj_property>
+      <obj_property name="ObjectShortName">CACHE_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/RAM_CLK" type="logic">
+      <obj_property name="ElementShortName">RAM_CLK</obj_property>
+      <obj_property name="ObjectShortName">RAM_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/ADDR_OFFSET" type="array">
+      <obj_property name="ElementShortName">ADDR_OFFSET[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_OFFSET[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/ADDR_INDEX" type="array">
+      <obj_property name="ElementShortName">ADDR_INDEX[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_INDEX[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/ADDR_TAG" type="array">
+      <obj_property name="ElementShortName">ADDR_TAG[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_TAG[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/SIG_CPU_RD" type="logic">
+      <obj_property name="ElementShortName">SIG_CPU_RD</obj_property>
+      <obj_property name="ObjectShortName">SIG_CPU_RD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/SIG_CPU_WR" type="logic">
+      <obj_property name="ElementShortName">SIG_CPU_WR</obj_property>
+      <obj_property name="ObjectShortName">SIG_CPU_WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/CPU_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">CPU_OUT_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_OUT_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/CPU_B_VAL" type="array">
+      <obj_property name="ElementShortName">CPU_B_VAL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_B_VAL[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/IN_RAM_DATA" type="array">
+      <obj_property name="ElementShortName">IN_RAM_DATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_RAM_DATA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/RAM_ACK" type="logic">
+      <obj_property name="ElementShortName">RAM_ACK</obj_property>
+      <obj_property name="ObjectShortName">RAM_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/ACK" type="logic">
+      <obj_property name="ElementShortName">ACK</obj_property>
+      <obj_property name="ObjectShortName">ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/OUT_RAM_DATA" type="array">
+      <obj_property name="ElementShortName">OUT_RAM_DATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_RAM_DATA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/OUT_RAM_ADDR" type="array">
+      <obj_property name="ElementShortName">OUT_RAM_ADDR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_RAM_ADDR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/RAM_READ_NOT_WRITE" type="logic">
+      <obj_property name="ElementShortName">RAM_READ_NOT_WRITE</obj_property>
+      <obj_property name="ObjectShortName">RAM_READ_NOT_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/SIG_RAM_RD" type="logic">
+      <obj_property name="ElementShortName">SIG_RAM_RD</obj_property>
+      <obj_property name="ObjectShortName">SIG_RAM_RD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/SIG_RAM_WR" type="logic">
+      <obj_property name="ElementShortName">SIG_RAM_WR</obj_property>
+      <obj_property name="ObjectShortName">SIG_RAM_WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/MI_IN_DATA" type="array">
+      <obj_property name="ElementShortName">MI_IN_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">MI_IN_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/MI_OUT_DATA" type="array">
+      <obj_property name="ElementShortName">MI_OUT_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">MI_OUT_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/MI_SIG_RAM_ACK" type="logic">
+      <obj_property name="ElementShortName">MI_SIG_RAM_ACK</obj_property>
+      <obj_property name="ObjectShortName">MI_SIG_RAM_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/CPU_IN_DATA" type="array">
+      <obj_property name="ElementShortName">CPU_IN_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_IN_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/cache/control_unit/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/memory_interface/cache_state" type="array">
+      <obj_property name="ElementShortName">cache_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/memory_interface/ram_state" type="array">
+      <obj_property name="ElementShortName">ram_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/memory_interface/cache_iteration" type="array">
+      <obj_property name="ElementShortName">cache_iteration[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_iteration[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/memory_interface/ram_iteration" type="array">
+      <obj_property name="ElementShortName">ram_iteration[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_iteration[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCacheWithMemoryInterface/memory_interface/fifo_cache_ram_output" type="array">
+      <obj_property name="ElementShortName">fifo_cache_ram_output[32:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_cache_ram_output[32:0]</obj_property>
+   </wvobject>
+</wave_config>

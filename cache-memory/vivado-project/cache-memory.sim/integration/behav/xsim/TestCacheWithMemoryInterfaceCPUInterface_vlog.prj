@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../src/modules/cache" \
+"../../../../cache-memory.gen/sources_1/ip/fifo_generator_1/fifo_generator_1_sim_netlist.v" \
+"../../../../cache-memory.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_sim_netlist.v" \
+"../../../../../src/modules/cache/CPUInterface.v" \
+"../../../../../src/modules/cache/CacheMemory.v" \
+"../../../../../src/modules/cache/ControlUnit.v" \
+"../../../../../src/modules/std/Encoder8to3.v" \
+"../../../../../src/modules/cache/InputDataSelectScheme.v" \
+"../../../../../src/modules/cache/MemoryInterface.v" \
+"../../../../../src/modules/std/Mux2.v" \
+"../../../../../src/modules/std/Mux8.v" \
+"../../../../../src/modules/std/ORN.v" \
+"../../../../../src/modules/cache/OutputDataSelectScheme.v" \
+"../../../../../src/modules/cache/TagMemory.v" \
+"../../../../../src/tests/integration/test_Cache_With_MI_CPUI.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
